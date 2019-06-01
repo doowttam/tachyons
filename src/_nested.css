@@ -66,3 +66,13 @@
   opacity: .8; transition: opacity .15s ease-out;
 }
 
+.nested-blockquotes blockquote {
+  border-left-style: solid;
+  border-left-width: .5rem;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-color: var(--light-blue);
+  padding-left: var(--spacing-medium);
+  font-style: italic;
+}

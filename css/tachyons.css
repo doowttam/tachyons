@@ -1945,10 +1945,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-separator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; transition: opacity .15s ease-in; font-weight: bold; text-decoration: none; }
+.nested-links a { opacity: 1; color: #357edd; transition: opacity .15s ease-in; font-weight: bold; text-decoration: none; }
 .nested-links a:hover, .nested-links a:focus { opacity: .5; transition: opacity .15s ease-in; }
 .nested-links a:focus { outline: 1px dotted currentColor; }
 .nested-links a:active { opacity: .8; transition: opacity .15s ease-out; }
+.nested-blockquotes blockquote { border-left-style: solid; border-left-width: .5rem; border-top-width: 0; border-bottom-width: 0; border-right-width: 0; border-color: #96ccff; padding-left: 1rem; font-style: italic; }
 /*
 
   STYLES
